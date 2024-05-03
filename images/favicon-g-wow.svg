@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="logo_2" data-name="logo 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #f22ebe;
+        stroke-width: 1.09px;
+      }
+
+      .cls-1, .cls-2 {
+        fill: none;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        stroke: #4e98d9;
+        stroke-width: 1.09px;
+      }
+    </style>
+  </defs>
+  <path class="cls-1" d="m1.25,8.31c0,2.9,2.54,5.25,5.68,5.25,1.57,0,2.99-.59,4.02-1.54s1.66-2.26,1.66-3.71c0-2.9-2.54-5.25-5.68-5.25S1.25,5.41,1.25,8.31Z"/>
+  <path class="cls-1" d="m12.59,8.78l.1,6.15.18,12.92s-7.89,2.42-11.04-3.37c-.51-.94-3.71-9.63,10.47-10.03"/>
+  <path class="cls-2" d="m13.21,14.46h2.1s2.11,6.8,2.11,6.8l2.02-5.64,2.52,5.54,2.09-9.19c.25-.86,1.53-8.14,7.23-7.74"/>
+</svg>
