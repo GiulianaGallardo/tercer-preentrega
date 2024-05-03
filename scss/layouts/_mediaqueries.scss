@@ -1,12 +1,37 @@
+@mixin responsive-card-title {
+    @media (max-width: 768px) {
+        .card-title {
+            font-size: 20px;
+        }
+    }
+
+    @media (max-width: 576px) {
+        .card-title {
+            font-size: 18px;
+        }
+    }
+}
+
+@mixin smooth-shake-animation {
+    animation: smoothShake 3s ease-in-out infinite;
+}
+
+
+@media (max-width: 767px) {
+    .col-md-3 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .col-md-6 {
+        margin-bottom: 40px;
+    }
+}
+
 @media (max-width: 768px) {
-    .card-title {
-        font-size: 20px;
+    .carousel-inner img {
+        height: 200px;
     }
 }
-
-@media (max-width: 576px) {
-    .card-title {
-        font-size: 18px;
-    }
-}
-
