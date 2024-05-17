@@ -16,6 +16,8 @@
     text-decoration: none;
     white-space: nowrap;
     border-radius: 0.25rem;
+    width: auto; // Asegura que el ancho se ajuste automáticamente al contenido
+    max-width: 100%; // Asegura que no se desborde
 
     &::before {
         position: absolute;

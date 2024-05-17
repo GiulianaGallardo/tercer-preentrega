@@ -1,5 +1,5 @@
 @import "../base/vars";
-@import "../base/utilities_scss";
+@import "../base/utilities";
 @import "../base/global";
 
 .section-call-to-action {
@@ -9,6 +9,9 @@
     margin: 20px auto;
     text-align: center;
     @include smoothShake;
+    max-width: 1200px; 
+    width: 90%;
+    box-sizing: border-box;
 }
 
 .image-container {
@@ -18,6 +21,7 @@
     border-radius: 50%;
     overflow: hidden;
     transition: transform 0.3s ease;
+    margin: 0 auto;
 
     .profile-image {
         width: 100%;
@@ -63,5 +67,23 @@
 
     .btn {
         margin-top: 1rem;
+    }
+}
+
+.section-portfolio {
+    .mini-gallery {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+
+    .gallery-img {
+        width: 100%;
+        height: auto;
+        transition: transform 0.3s ease;
+
+        &:hover {
+            transform: scale(1.1);
+        }
     }
 }
