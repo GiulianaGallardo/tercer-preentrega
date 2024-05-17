@@ -1,10 +1,13 @@
+@import "../base/vars";
+@import "../base/utilities";
+
 .btn {
+    display: inline-block;
     padding: 0.4rem 0.8rem;
-    width: auto;
     font-size: 16px;
     font-weight: 700;
     color: white;
-    background-color: transparent;
+    background-color: $bg-primario;
     border: 3px solid $bg-fucsiaclaro;
     position: relative;
     overflow: hidden;
@@ -12,6 +15,7 @@
     z-index: 1;
     text-decoration: none;
     white-space: nowrap;
+    border-radius: 0.25rem;
 
     &::before {
         position: absolute;
@@ -28,6 +32,12 @@
     &:hover::before {
         transform: translateX(0);
     }
+
+    &:hover {
+        background-color: $bg-secundario;
+        color: white;
+        transform: scale(1.05);
+    }
 }
 
 .btn-primary {
@@ -36,18 +46,7 @@
 
     &:hover {
         background-color: $bg-secundario;
-        border-color: $bg-fucsiaclaro;
-    }
-}
-
-@media (max-width: 768px) {
-    .btn {
-        font-size: 14px;
-        padding: 0.3rem 0.6rem;
-    }
-
-    .row {
-        margin-left: 5px;
-        margin-right: 5px;
+        border-color: $bg-primario;
+        transform: scale(1.05);
     }
 }

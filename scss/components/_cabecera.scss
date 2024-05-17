@@ -1,6 +1,9 @@
 .cabecera {
     text-align: left;
     color: $bg-negro;
-    background-color: $bg-primario;
+    background: linear-gradient(135deg, rgba($bg-primario, 0.5), rgba($bg-secundario, 0.5));
     height: 150px;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
 }

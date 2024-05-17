@@ -1,5 +1,73 @@
-.col-md-6 {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+@import "../base/vars";
+@import "../base/utilities";
+
+.section-servicios {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    h2 {
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+    }
+
+    .container {
+        max-width: 100%;
+    }
+
+    .card {
+        @include card-hover-effect;
+        border-radius: 0.5rem;
+        overflow: hidden;
+
+        .card-body {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            height: 100%;
+        }
+
+        .card-title {
+            margin-bottom: 1rem;
+        }
+
+        .btn {
+            align-self: center;
+        }
+    }
+
+    .row {
+        margin-left: 0;
+        margin-right: 0;
+    }
 }
+
+.service-card {
+    margin: 15px;
+
+    .card-body {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .card-title {
+        margin-bottom: 1rem;
+    }
+
+    .card-text {
+        margin-bottom: 1.5rem;
+    }
+
+    .btn {
+        align-self: center;
+    }
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+}
+

@@ -1,5 +1,7 @@
-@import "base/vars";
+@import "base/global";
 @import "base/reset";
+@import "base/utilities";
+@import "base/vars";
 @import "components/boton";
 @import "components/navbar";
 @import "components/footer";
@@ -7,7 +9,5 @@
 @import "components/formulario";
 @import "components/cabecera";
 @import "layouts/index";
-@import "layouts/sobremi";
-@import "layouts/portfolio";
 @import "layouts/servicios";
 @import "layouts/mediaqueries";

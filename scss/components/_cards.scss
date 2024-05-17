@@ -1,21 +1,22 @@
+@import "../base/vars";
+@import "../base/utilities";
+
 .card {
     border: 2px solid $bg-fucsiaclaro;
     transition: transform 0.3s ease;
+
+    &:hover {
+        transform: scale(1.05);
+        cursor: pointer;
+    }
+
+    .card-title {
+        color: $bg-primario;
+        font-size: 25px;
+        font-weight: bold;
+    }
 }
 
-
-.card:hover {
-    transform: scale(1.05);
-    cursor: pointer;
-}
-
-
-.card-title {
-    color: $bg-primario;
-    font-size: 25px;
-    font-weight: bold;
-
-}
 
 
 

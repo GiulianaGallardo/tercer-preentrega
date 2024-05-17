@@ -5,6 +5,8 @@ footer img {
 }
 
 .row-footer {
-    background-color: $bg-fucsiaclaro;
-
+    background: linear-gradient(135deg, rgba($bg-secundario, 0.5), rgba($bg-primario, 0.5));
+    padding: 20px;
+    color: $bg-negro;
+    border-radius: 0.5rem;
 }
